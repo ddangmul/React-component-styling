@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { styled } from "styled-components";
-import { Button, TextButton } from "./Button";
+import { Button } from "./Button";
 import Input from "./Input";
 
 const ControlContainer = styled.div`
@@ -49,7 +49,9 @@ export default function AuthInputs() {
         />
       </ControlContainer>
       <div className="actions">
-        <TextButton type="button">Create a new account</TextButton>
+        <button className="text-button" type="button">
+          Create a new account
+        </button>
         <Button onClick={handleLogin}>Sign In</Button>
       </div>
     </div>
