@@ -1,5 +1,4 @@
 import logo from "../assets/logo.png";
-// import classes from "./Header.module.css";
 import styled from "styled-components";
 
 const StyledHeader = styled.header`
@@ -42,23 +41,6 @@ const StyledHeader = styled.header`
     }
   }
 `;
-
-// const StyledH1 = styled.h1`
-//   font-size: 1.5rem;
-//   font-weight: 600;
-//   letter-spacing: 0.4em;
-//   text-align: center;
-//   text-transform: uppercase;
-//   color: #9a3412;
-//   font-family: "Pacifico", cursive;
-//   margin: 0;
-// `;
-
-// const Paragraph = styled.p`
-//   text-align: center;
-//   color: #a39191;
-//   margin: 0;
-// `;
 
 export default function Header() {
   return (
